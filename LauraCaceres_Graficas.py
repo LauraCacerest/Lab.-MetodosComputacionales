@@ -9,8 +9,11 @@ dN=datosP[:,1]
 ddT=datosCPP[:,0]
 ddN=datosCPP[:,1]
 
+#Grafica 
 plt.figure()
-
+plt.plot(dN,dT)
+plt.plot(ddT,ddN)
+plt.legend
 plt.xlabel("Datos")
 plt.ylabel ("Tiempo")
 plt.tittle("Tiempo Vs N")
